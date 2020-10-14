@@ -44,6 +44,7 @@ STYLE_MAP = {
     'arduino':  'arduino::ArduinoStyle',
     'rainbow_dash': 'rainbow_dash::RainbowDashStyle',
     'abap':     'abap::AbapStyle',
+    'threediate': 'threediate::ThreediateStyle',
 }
 
 

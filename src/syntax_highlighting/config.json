@@ -1,5 +1,17 @@
 {
     "hotkey": "Alt+s",
-    "limitToLangs": [],
-    "style": "default"
+    "limitToLangs": [
+        "C#",
+        "CSS",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "JSX",
+        "Python",
+        "SQL",
+        "Swift",
+        "TypeScript",
+        "XML"
+    ],
+    "style": "threediate"
 }
