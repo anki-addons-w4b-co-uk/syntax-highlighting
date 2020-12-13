@@ -372,7 +372,6 @@ def highlight_code(ed):
         code = selected_text.replace('\u00A0', ' ')
     else:
         clipboard = QApplication.clipboard()
-        # Get the code from the clipboard
         code = clipboard.text()
 
     langAlias = ed.codeHighlightLangAlias

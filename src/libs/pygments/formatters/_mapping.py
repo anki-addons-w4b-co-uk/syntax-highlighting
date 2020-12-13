@@ -44,7 +44,7 @@ if __name__ == '__main__':  # pragma: no cover
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
     from pygments.util import docstring_headline
 
-    for root, dirs, files in os.walk('.'):
+    for root, dirs, files in os.walk(''):
         for filename in files:
             if filename.endswith('.py') and not filename.startswith('_'):
                 module_name = 'pygments.formatters%s.%s' % (
